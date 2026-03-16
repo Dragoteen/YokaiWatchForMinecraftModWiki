@@ -28,11 +28,11 @@ export default {
       {
         text: '⌚ Items',
        // collapsed: false,  // ouvert par défaut
-        items: [
-          { text: 'Liste complète', link: '/yokais/' },
-          { text: 'Jibanyan', link: '/yokais/jibanyan' },
-          { text: 'Komasan', link: '/yokais/komasan' }
-        ]
+       // items: [
+       //   { text: 'Liste complète', link: '/yokais/' },
+       //   { text: 'Jibanyan', link: '/yokais/jibanyan' },
+       //   { text: 'Komasan', link: '/yokais/komasan' }
+       // ]
       }
     ],
     
