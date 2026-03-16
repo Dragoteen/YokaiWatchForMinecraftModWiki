@@ -10,28 +10,35 @@ export default {
     // 📱 Navigation en haut
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'Installation', link: '/installation' }
     ],
     
-    // 📂 Sidebar (menu latéral)
     sidebar: [
       {
         text: '🚀 Get Started',
-        items: [
+        items: [                    // ✅ Avec `items`
           { text: 'Installation', link: '/installation' },
           { text: 'Configuration', link: '/config' }
         ]
       },
       {
-        text: '⌚ Items',
-       // collapsed: false,  // ouvert par défaut
-       // items: [
-       //   { text: 'Liste complète', link: '/yokais/' },
-       //   { text: 'Jibanyan', link: '/yokais/jibanyan' },
-       //   { text: 'Komasan', link: '/yokais/komasan' }
-       // ]
+        text: '⌚ Items',            // ✅ Section avec sous-pages
+        items: [
+          { text: 'Items list', link: '/items/' }
+        ]
       },
-      {text: '🧱 Blocks', link: '/blocks'},
-      {text: '🎼 Musics', link: '/musics'}
+      {
+        text: '🧱 Blocks',          // ✅ Section avec sous-pages  
+        items: [
+          { text: 'Blocks list', link: '/blocks/' }
+        ]
+      },
+      {
+        text: '🎼 Musics',          // ✅ Section avec sous-pages
+        items: [
+          { text: 'Musics list', link: '/musics/' }
+        ]
+      }
     ],
     
     // 📄 Footer (visible sans sidebar)
