@@ -1,3 +1,7 @@
+---
+title: 'Installation'
+---
+
 # Installation du mod
 
 1. Téléchargez le .jar
