@@ -10,10 +10,6 @@ export default {
     // 📱 Navigation en haut
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Installation', link: '/installation' },
-      { text: 'Items', link: '/items' },
-      { text: 'Blocks', link: '/blocks' },
-      { text: 'Musics', link: '/musics' },
     ],
     
     // 📂 Sidebar (menu latéral)
@@ -21,7 +17,6 @@ export default {
       {
         text: '🚀 Get Started',
         items: [
-          { text: 'Home', link: '/'},
           { text: 'Installation', link: '/installation' },
           { text: 'Configuration', link: '/config' }
         ]
@@ -34,7 +29,9 @@ export default {
        //   { text: 'Jibanyan', link: '/yokais/jibanyan' },
        //   { text: 'Komasan', link: '/yokais/komasan' }
        // ]
-      }
+      },
+      {text: '🧱 Blocks', link: '/blocks'},
+      {text: '🎼 Musics', link: '/musics'}
     ],
     
     // 📄 Footer (visible sans sidebar)
