@@ -21,6 +21,7 @@ export default {
       {
         text: '🚀 Get Started',
         items: [
+          { text: 'Home', link: '/'},
           { text: 'Installation', link: '/installation' },
           { text: 'Configuration', link: '/config' }
         ]
