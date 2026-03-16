@@ -1,3 +1,7 @@
+---
+layout: home
+---
+
 ### Welcome to the **Yo-kai Watch For Minecraft** Mod wiki!
 
 The wiki contains all the information you need to know about the mod and its content.
