@@ -1,7 +1,3 @@
----
-
----
-
 Here is the list of items included in the mod, organized by categories of item:
 
 ***
