@@ -1,5 +1,6 @@
 ---
-title: 'Home'
+title: Home
+lang: en-US
 ---
 
 ### Welcome to the **Yo-kai Watch For Minecraft** Mod wiki!
