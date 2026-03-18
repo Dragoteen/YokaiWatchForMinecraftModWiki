@@ -1,5 +1,6 @@
 ---
-title: 'Installation'
+title: Installation
+lang: en-US
 ---
 
 # Installation du mod
