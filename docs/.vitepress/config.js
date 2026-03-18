@@ -47,7 +47,24 @@ export default {
       copyright: 'Copyright © 2026 Dragoteen'
     },
     
-    // 🌐 Langues (plus bas)
-    // ...
+    import { defineConfig } from 'vitepress'
+
+    export default defineConfig({
+      // shared properties and other top-level stuff...
+    
+      locales: {
+        root: {
+          label: 'English',
+          lang: 'en'
+        },
+        fr: {
+          label: 'French',
+          lang: 'fr', // optional, will be added  as `lang` attribute on `html` tag
+          link: '/fr/guide' // default /fr/ -- shows on navbar translations menu, can be external
+    
+          // other locale specific properties...
+        }
+      }
+    })
   }
 }
